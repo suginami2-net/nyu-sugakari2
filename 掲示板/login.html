@@ -8,7 +8,7 @@
   <body>
     <p>loginページ</p>
     <hr>
-    <p><input type="button" value="入力ダイアログ" onClick="disp()"></p>
+    <p><input type="button" value="login" onClick="disp()"></p>
   </body>
 </html>
 
@@ -23,7 +23,7 @@ function disp(){
 	// 入力内容が tama の場合は example_tama.html にジャンプ
 	if(user == 'suginami2'){
 
-		location.href = "example_tama.html";
+		location.href = "中/A1.html";
 
 	}
 
@@ -37,7 +37,7 @@ function disp(){
 	// 入力内容が一致しない場合は警告ダイアログを表示
 	else if(user != "" && user != null){
 
-		window.alert(user + 'さんは登録されていません');
+		window.alert('NO,ID');
 
 	}
 
